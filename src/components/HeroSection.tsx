@@ -16,7 +16,7 @@ const HeroSection = () => {
   if (!isMounted) return null
 
   return (
-    <LampContainer className="flex flex-col justify-center items-center max-h-screen pt-10 sm:pt-16 md:pt-32 lg:pt-80">
+    <LampContainer className="flex flex-col justify-center items-center max-h-screen pt-10 sm:pt-16 md:pt-32 lg:pt-96">
       <motion.h1
         initial={{ opacity: 0.5, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
